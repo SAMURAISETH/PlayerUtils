@@ -1,0 +1,26 @@
+name: PlayerUtils
+version: 1.0
+main: com.PlayerTools.playerutils.PlayerUtils
+api-version: "1.21"
+description: Player utility commands
+author: PlayerTools
+
+commands:
+  tpa:
+    description: Request to teleport to a player!
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a TPA request!
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a TPA request!
+    usage: /tpdeny
+  back:
+    description: Teleport to your last location!
+    usage: /back
+  ignore:
+    description: Toggle ignoring a player!
+    usage: /ignore <player>
+  loc:
+    description: Save and teleport to named locations!
+    usage: /loc <save|tp|delete|list> [name]
