@@ -1,39 +1,46 @@
 # PlayerUtils
 
 
-is a paper 1.21.11 build #127, PlayerUtils gives players(clients) commands that are useful not op here are the sectors of commadns
+this is PlayerUtils Plugin made with the java Maven lib.
 
 
-tp requests
+this plugin mainly give the ability for the client to set there own tp to there home but there are some bugs that i main need othere users to test with paper 1.21.11 #127
 
 
-/tpa <player>
+---- Client Commands ----
 
 
-/tpaccept
+/tpa <player> - resquests to tp players
 
 
-/tpdeny
+/tpaccept - accepts the recent request
 
 
-/back - goes to the last place u died and the last place u tp from
+/tpdeny - deny's the request
 
 
-/ignore - only effects public messging private messages are the only bypass
+/back - tps u to the last place u died or last spawn 
 
 
-/loc save [name] - u can't set save loc if theres a player save 15 blocks
+/loc save <name> - saves the pos of ur current position
 
 
-/loc save [name] <posX> <posY> <posZ> - u do have to enter /loc comfirm
+/loc save <name> <x> <y> <z> - same as the first save but if u don't want to travel and save it then go back it makes the perocess esayer
 
 
-/loc tp [name] - tps u to that pos
+/loc tp <name> - teleports you to ur location like hom
 
 
-/loc list - list your saves
+/loc delete <name> - deletes a location u dont need. You wont beable to delete ones made by the server *onwer* will set them and leave theme
 
 
-/loc delete [name] - delete the esitsing save name
+/loc list - lists all of saves including server
 
 
+/loc comfirm, /loc deny - this is to comfirm or deny if u want to override a already named save comfirm and its saved deny it cancels
+
+
+/ignore <player> - prevend's player from messageing you through public chat unfortily not for people that use */msg*
+
+
+enjoy my PlayerUtils and have:)
