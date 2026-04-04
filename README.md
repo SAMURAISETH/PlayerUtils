@@ -25,7 +25,7 @@ this plugin mainly give the ability for the client to set there own tp to there 
 ```/loc save <name>``` - saves the pos of ur current position
 
 
-```/loc save <name>``` <x> <y> <z> - same as the first save but if u don't want to travel and save it then go back it makes the perocess esayer
+```/loc save <name> <x> <y> <z>``` - same as the first save but if u don't want to travel and save it then go back it makes the perocess esayer
 
 
 ```/loc tp <name>``` - teleports you to ur location like hom
